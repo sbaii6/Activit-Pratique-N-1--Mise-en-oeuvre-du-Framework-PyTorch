@@ -1,14 +1,15 @@
 [project]
 name = "lab-pytorch-v1"
 version = "0.1.0"
-description = "Add your description here"
+description = "TP PyTorch sur MNIST : classification, auto-encodeur et VAE"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.11,<3.12"
 dependencies = [
-    "ipykernel>=7.4.0",
-    "matplotlib>=3.11.2",
-    "torch>=2.14.1",
-    "torcheval>=0.0.7",
+    "ipykernel",
+    "matplotlib",
+    "torch",
+    "torcheval",
+    "torchvision",
 ]
 
 [project.scripts]
